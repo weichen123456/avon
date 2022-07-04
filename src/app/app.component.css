@@ -1,0 +1,12 @@
+.bg-nav {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.brand-text {
+    text-shadow: 1px 1px rgba(100, 100, 100, 0.8);
+    font-size: larger;
+}
+
+footer {
+    background-color: aliceblue;
+    padding-top: 50px;
+}

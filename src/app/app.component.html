@@ -1,0 +1,150 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark bg-nav sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-5" routerLink="/home"><span class="text-danger brand-text">avon</span><span class="brand-text">research</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav ms-auto ">
+        <li class="nav-item mx-2">
+          <a class="nav-link" routerLink="/home" routerLinkActive="active">Home</a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link" routerLink="/aboutus" routerLinkActive="active">About Us</a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link" routerLink="/services" routerLinkActive="active">Services</a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link" routerLink="/portfoilo" routerLinkActive="active">Portfoilo</a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link" routerLink="/team" routerLinkActive="active">Team</a>
+        </li>
+        
+        <!-- <li class="nav-item">
+          <a class="nav-link" routerLink="/consulting" routerLinkActive="active">Consulting</a>
+        </li> -->
+        <!-- <li class="nav-item">
+          <a class="nav-link" routerLink="/optimisation" routerLinkActive="active">Optimisation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/machine" routerLinkActive="active">Machine Learning</a>
+        </li> -->
+        <!-- <li class="nav-item">
+          <a class="nav-link" routerLink="/application" routerLinkActive="active">Application</a>
+        </li> -->
+
+        <!-- <li class="nav-item">
+          <a class="nav-link" routerLink="/energy" routerLinkActive="active">Energy</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/finance" routerLinkActive="active">Finance</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/blog" routerLinkActive="active">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/retail" routerLinkActive="active">Retail</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/commodities" routerLinkActive="active">Commodities</a>
+        </li> -->
+
+        <li class="nav-item me-5">
+          <a class="nav-link" routerLink="/contact" routerLinkActive="active">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
+
+<footer class="mt-5">
+  <div class="container mb-4">
+    <div class="row">
+      
+      <div class="col-lg-3 col-md-3">
+        
+        <h3 class="fw-bold"><span class="text-danger">avon</span>research</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#"><i class="fa fa-instagram"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#"><i class="fa fa-dribbble"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-3">
+        <h3>Explore</h3>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Portfoilo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Team</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-3">
+        <h3>Quick Links</h3>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Pricacy Police</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Team & Condition</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-3">
+        <h3>Get in Touch</h3>
+        <ul class="nav flex-column ms-4">
+          <li class="nav-item mt-3">
+            <span class="fw-bold">Location: </span><span>2750 Quadra Street Victoria, Canada.</span>
+          </li>
+          <li class="nav-item mt-3">
+            <span class="fw-bold">Phone: </span><span>+1270-7044-200</span>
+          </li>
+          <li class="nav-item mt-3">
+            <span class="fw-bold">Email: </span><span>hello@luaz.com</span>
+          </li>
+          <li class="nav-item mt-3">
+            <span class="fw-bold">Fax: </span><span>+12370-7044-200</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <p class="bg-dark m-0 text-white p-3 text-center mt-5">© 2022 web developer</p>
+</footer>

@@ -1,0 +1,18 @@
+.bg-carousel {
+    height: calc(100vh - 56px);
+    background-size: cover;
+}
+.card-img1 {
+    width: 80px;
+
+}
+.card-border {
+    border: none !important;
+}
+.service-card {
+    box-shadow: 2px 4px 8px rgba(100, 100, 100, 0.7);
+    transition: transform .2s;
+}
+.service-card:hover {
+    transform: scale(1.03);
+}
